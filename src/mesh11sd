@@ -1666,7 +1666,7 @@ auto_config() {
 					case $mesh_gate_encryption in
 						0) encryption_type="none";;
 						1) encryption_type="sae";;
-						2) encryption_type="sae-mixed+aes";;
+						2) encryption_type="sae-mixed";;
 						3) encryption_type="psk2+aes";;
 						*) encryption_type="none";;
 					esac
